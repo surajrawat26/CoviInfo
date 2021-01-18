@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.intro{
+  background-color:white;
+}
+.nav-con{
+  /* position: absolute;
+  text-shadow: 1px 1px 2px darkgray; */
+
+}
+.myNav{
+word-spacing: 1em;
+border-radius: 20px;
+/* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+}
+
+.brand-des-text{
+	
+	letter-spacing: 0.2em;
+	font-size: 2em;
+}
+
+.nav-pill-custom>a:hover{
+  color: lightcyan;
+}
+.x-pad{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav-link-color{
+  /* font-weight: bold; */
+}
+
+.makeabsolute{
+  position: absolute;
+}
+.slideShow{
+  padding-bottom: 20px;
+  position: relative;
+}
+.slideShow h5{
+  /* text-shadow: 1px 1px 4px black; */
+}
+.slideShow p{
+  /* text-shadow: 1px 1px 2px darkgray; */
+  letter-spacing: 0.1em;
+}
+
+.myCarDiv{
+  /* max-height: 600px; */
+}
+
+
+
+.intro-text{
+align-content: space-around;
+}
+
+.col-pad{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.mid img{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.mid img:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.tips img{
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
+.tip-con{
+position: relative;
+}
+.tip-overlay {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  color: white;
+  text-shadow: 2px 2px 4px gray;
+  padding-top: 25%;
+}
+.tip-con:hover .tip-overlay {
+  opacity: 1;
+}
+
+
+.contact{
+
+  color: white;
+  background-color: #2E303D;
+ 
+   z-index: 2;
+  background-image: url("images/doctor.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.form-bg{
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* footer */
+
+
+
+
+.sns-links{
+
+}
+.feather:hover{
+  color: cyan;
+  transform: scale(1.2);
+  transition: 0.5s;
+
+}
+
+
+.bg-slaav{
+  background-color: #2E303D; 
+}
+
+
+.fade{
+  opacity: 0;
+}
